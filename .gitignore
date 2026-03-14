@@ -1,0 +1,43 @@
+*.iml
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Kotlin Gradle data (Kotlin 2.0+)
+.kotlin/
+
+# Local config
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# APK / AAB / dex / class
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Keystores
+*.jks
+*.keystore
+
+# NDK / CMake
+.cxx/
+obj/
+
+# Misc
+captures/
+outputs/
