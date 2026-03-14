@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">P2</string>
-    <string name="title_activity_game">GameActivity</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_main">Dino Game!</string>
+    <string name="title_activity_game" translatable="false">GameActivity</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="go">GO</string>
+    <string name="toast_msg">name or password is empty!</string>
+    <string name="root" translatable="false">ROOT</string>
+    <string name="emulator" translatable="false">EMULATOR</string>
 </resources>

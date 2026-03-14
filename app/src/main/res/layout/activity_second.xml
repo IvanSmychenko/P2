@@ -31,7 +31,7 @@
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_hello"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.562" />
 
     <TextView
         android:id="@+id/tv_show_psw"
@@ -44,4 +44,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_hello" />
+
+    <TextView
+        android:id="@+id/tv_emulator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emulator"
+        android:textStyle="bold"
+        android:textColor="#f03"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_play"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <TextView
+        android:id="@+id/tv_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/root"
+        android:textStyle="bold"
+        android:textColor="#f03"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="587dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

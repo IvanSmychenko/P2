@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">P2</string>
+    <string name="hello_main">Игра Дино!</string>
+    <string name="username">имя пользователя</string>
+    <string name="password">пароль</string>
+    <string name="go">Вперед</string>
+    <string name="toast_msg">имя или пароль пусты!</string>
+</resources>

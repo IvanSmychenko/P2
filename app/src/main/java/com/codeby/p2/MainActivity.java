@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra("psw", password);
                     startActivity(intent);
                 } else {
-                    Toast.makeText(MainActivity.this, "name or password is empty!",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.toast_msg,Toast.LENGTH_SHORT).show();
                 }
             }
         });
