@@ -2,8 +2,14 @@
 <resources>
     <string name="app_name">P2</string>
     <string name="hello_main">Игра Дино!</string>
+    <string name="title_activity_game">Активность Игры</string>
     <string name="username">имя пользователя</string>
     <string name="password">пароль</string>
     <string name="go">Вперед</string>
     <string name="toast_msg">имя или пароль пусты!</string>
+    <string name="emulator">ВИРТУАЛЬНОЕ УСТРОЙСТВО</string>
+    <string name="hacked">ВЗЛОМАН</string>
+    <string name="ok">ХО</string>
+    <string name="root">СУПЕРПОЛЬЗОВАТЕЛЬ</string>
+    <string name="play">Игра</string>
 </resources>
